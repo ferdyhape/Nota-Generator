@@ -14,8 +14,19 @@
 
         <?php
         $barang = array("Goodie Bag");
-        $harga = array(20000);
+        $harga = array(20000); // if you previously entered more than 1 item, also enter the price in order(20000, "Lope Bag")
         $jumlahpesan = array(8);
+
+        // if requirement 3 item
+        // Goodie Bag - 20000 - 8
+        // Lope Bag - 150000 - 3
+        // Babag - 300000 - 5
+
+        // you can write the code like this
+        // $barang = array("Goodie Bag", "Lope Bag", "Babag")
+        // $harga = array(20000, 150000, 300000)
+        // $jumlahpesan = array(8, 3, 5);
+
         $total = 0;
         $kredit = 1000000;
         $namatoko = "SAVANA GIFT";
